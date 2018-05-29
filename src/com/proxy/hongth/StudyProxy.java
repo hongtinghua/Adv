@@ -16,4 +16,11 @@ public class StudyProxy implements IStudent {
 		student.study();
 	}
 
+
+	@Override
+	public void play() {
+		System.out.println("hahahahahah");
+		student.play();
+	}
+
 }

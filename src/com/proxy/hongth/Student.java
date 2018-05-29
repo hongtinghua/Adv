@@ -8,4 +8,10 @@ public class Student implements IStudent{
 		
 	}
 
+	@Override
+	public void play() {
+		System.out.println("i am playing......");
+		
+	}
+
 }
