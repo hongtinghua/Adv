@@ -4,7 +4,7 @@ import java.util.List;
 public class ListNew {
 	
 	public static void main(String[] args) {
-		User user =  null;
+		User user = new User();
 		List<User> list = new ArrayList<User>();
 		for(int i = 0; i<10;i++) {
 			user = new User();
@@ -15,6 +15,7 @@ public class ListNew {
 		}
 		
 		for(User a:list) {
+			System.out.println(a.hashCode());
 			System.out.println(a.getName());
 		}
 		
